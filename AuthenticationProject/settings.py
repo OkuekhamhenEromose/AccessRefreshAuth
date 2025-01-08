@@ -120,7 +120,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
+#Visit the documentation for Simple JWT: 
+# https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(days=1),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=2),
